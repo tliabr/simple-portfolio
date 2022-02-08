@@ -48,6 +48,8 @@
 
 .c-desc{
   font-weight: 200;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 form{
@@ -71,11 +73,48 @@ textarea{
   padding-left: 10px;
 }
 
-button{
+.contact-button{
   border: none;
   padding: 15px;
   background-color: aquamarine;
   color: white;
   font-weight: 500;
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  .contact-button {
+    margin-top: 12px;
+  }
 }
