@@ -1,8 +1,7 @@
 import React, { useRef, useState, useContext } from "react";
 import "./contact.css"
-import { MdPhone } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
-import { MdEmail } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 import { ThemeContext } from "../context.js";
 
@@ -33,18 +32,8 @@ const Contact = () => {
           <h1 className="c-title">Let's talk</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <MdPhone className="c-icon" />
-              +44 07512 216772
-            </div>
-
-            <div className="c-info-item">
               <MdLocationOn className="c-icon" />
               London, UK
-            </div>
-
-            <div className="c-info-item">
-              <MdEmail className="c-icon" />
-              thalliaborbarosa@gmail.com
             </div>
           </div>
         </div>
