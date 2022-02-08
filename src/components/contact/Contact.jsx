@@ -4,7 +4,7 @@ import { MdPhone } from "react-icons/md";
 import { MdLocationOn } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import emailjs from "@emailjs/browser";
-import { ThemeContext } from "/home/thallia/code/simple-portfolio/src/components/context.js";
+import { ThemeContext } from "../context.js";
 
 const Contact = () => {
   const formRef = useRef();
