@@ -37,9 +37,7 @@ const Intro = () => {
             {text}
           </h3>
           <div className="intro-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            ipsa deleniti esse ab repellat fugit incidunt veniam necessitatibus,
-            quam ratione.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse iusto voluptas, fugit, neque reprehenderit asperiores nam numquam pariatur eos, consectetur omnis soluta facilis aperiam ducimus inventore recusandae eum porro harum.
           </div>
         </div>
       </div>

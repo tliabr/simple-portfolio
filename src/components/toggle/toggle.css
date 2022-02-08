@@ -1,0 +1,49 @@
+.t-container {
+  width: 55px;
+  height: 25px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+  display: flex;
+}
+
+.t {
+  border-radius: 20px;
+  border: 1px solid #9999;
+  background-color: white;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+.t-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 110;
+  fill: black;
+}
+
+.t-icon-light {
+  left: 5px;
+}
+
+.t-icon-dark {
+  right: 5px;
+}
+
+.t-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #999;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 120;
+}
