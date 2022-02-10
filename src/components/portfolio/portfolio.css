@@ -4,6 +4,7 @@
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 8px 8px 0px 0px;
+  transition: all .2s ease-in-out;
   overflow: hidden;
 }
 
@@ -30,8 +31,9 @@
   max-height: 100%;
 }
 
-.card:hover .p-img{
+.card:hover {
   transform: translateY(-100%);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 480px) {

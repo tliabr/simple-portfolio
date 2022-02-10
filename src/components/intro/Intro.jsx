@@ -37,7 +37,8 @@ const Intro = () => {
             {text}
           </h3>
           <div className="intro-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius impedit temporibus velit incidunt maiores et ipsum, cum suscipit minima quia?
+            Self-taught and self-motivated developer eager to grow and learn.
+            Passionate about web development and technology.
           </div>
         </div>
       </div>

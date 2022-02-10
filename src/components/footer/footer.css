@@ -1,0 +1,33 @@
+.footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #333;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(3, 207, 163);
+}
+
+a:hover {
+  color: rgb(4, 175, 138);
+}
+
+
+.icon {
+  color: rgb(3, 207, 163);
+  cursor: pointer;
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.icon:hover {
+  color: rgb(4, 175, 138);
+}

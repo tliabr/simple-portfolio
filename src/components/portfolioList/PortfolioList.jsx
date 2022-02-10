@@ -7,9 +7,9 @@ const PortfolioList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create Title</h1>
+        <h1 className="pl-title">Portfolio</h1>
         <p className="pl-desc">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quod, sapiente ducimus iste odio atque earum? Ratione dolor animi consequatur id, alias ad minima illum dolore ipsam delectus sunt sint?
+          These are some of the projects I've been working on:
         </p>
       </div>
 

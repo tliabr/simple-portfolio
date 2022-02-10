@@ -1,26 +1,27 @@
-.c{
-  height: 100vh;
+.c {
+  height: calc(100vh - 60px);
+  min-height: 400px;
   position: relative;
 }
 
-.c-bg{
+.c-bg {
   width: 20px;
   height: 100%;
   background-color: rgb(3, 207, 163);
   position: absolute;
 }
 
-.c-wrapper{
-  padding: 50px;
+.c-wrapper {
+  padding: 90px 80px 60px;
   display: flex;
   flex-direction: column;
 }
 
-.c-left{
+.c-left {
   flex: 1;
 }
 
-.c-right{
+.c-right {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -28,14 +29,14 @@
   justify-content: center;
 }
 
-.c-title{
-  font-size: 60px;
+.c-title {
   width: 80%;
-  font-size: 48px;
+  font-size: 50px;
   color: rgb(3, 207, 163);
+  font-weight: 300;
 }
 
-.c-info-item{
+.c-info-item {
   display: flex;
   align-items: center;
   margin: 50px 0px;
@@ -49,20 +50,24 @@
   margin-right: 20px;
 }
 
-.c-desc{
+.c-desc {
   font-weight: 200;
   font-size: 18px;
   font-weight: 400;
 }
 
-form{
+form {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-input{
-  width: 50%;
+input {
+  width: calc(100% / 2 - 24px);
   height: 50px;
   border: none;
+  display: block;
   border-bottom: 1px solid black;
   margin: 10px 0px;
   font-size: 14px;
@@ -70,7 +75,7 @@ input{
   border-radius: 4px;
 }
 
-textarea{
+textarea {
   width: 100%;
   margin: 10px 0px;
   font-size: 14px;
@@ -78,7 +83,7 @@ textarea{
   border-radius: 4px;
 }
 
-.contact-button{
+.contact-button {
   border: none;
   padding: 15px;
   background-color: rgb(3, 207, 163);
@@ -98,11 +103,13 @@ textarea{
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 120px 50px;
   }
 
   .c-title {
-    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
   }
 
   .c-info-item {
@@ -121,10 +128,9 @@ textarea{
   }
 
   input {
-    width: 35%;
+    width: 100%;
     height: 40px;
-    margin: 10px;
-    margin-left: 0;
+    margin: 10px 0;
   }
 
   .contact-button {

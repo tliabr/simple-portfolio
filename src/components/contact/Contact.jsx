@@ -38,10 +38,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="c-right">
-          <p className="c-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
-            natus?
-          </p>
+          {/* <p className="c-desc">
+
+          </p> */}
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
               style={{ backgroundColor: darkMode && "#333" }}
@@ -63,7 +62,7 @@ const Contact = () => {
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
-              rows="5"
+              rows="10"
               placeholder="Message"
               name="message"
             />
