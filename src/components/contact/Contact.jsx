@@ -67,7 +67,7 @@ const Contact = () => {
               placeholder="Message"
               name="message"
             />
-            <button className="contact-button">Submit</button>
+            <button className="contact-button">Send</button>
             {done && "Thank you!"}
           </form>
         </div>
