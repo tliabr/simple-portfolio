@@ -1,7 +1,13 @@
 export const products = [
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
-    link: "https://www.google.com/",
+    img: "/img/meal-planner.jpg",
+    link: "https://optimistic-bose-7b63ea.netlify.app",
+  },
+
+  {
+    id: 2,
+    img: "/img/news-grid.jpg",
+    link: "https://blissful-curie-a3cc81.netlify.app",
   },
 ];

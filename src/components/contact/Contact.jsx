@@ -38,9 +38,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="c-right">
-          {/* <p className="c-desc">
-
-          </p> */}
+          <p className="c-desc">Here is how you can reach me:</p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
               style={{ backgroundColor: darkMode && "#333" }}
