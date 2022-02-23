@@ -6,8 +6,22 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="wrapper">
-          <GoMarkGithub className="icon" href="https://github.com/tliabr" />
-          <AiFillLinkedin className="icon" href="https://www.linkedin.com/in/thallia-borba-rosa-salbego-b9aba4230/" />
+        <a
+          className="icon"
+          href="https://github.com/tliabr"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GoMarkGithub />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon"
+          href="https://www.linkedin.com/in/thallia-borba-rosa-salbego-b9aba4230/"
+        >
+          <AiFillLinkedin />
+        </a>
       </div>
     </div>
   );
