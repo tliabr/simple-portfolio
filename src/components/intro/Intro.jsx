@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-i">Hello, my name is</h2>
-          <h2 className="intro-name">Thallia Borba Rosa Salbego</h2>
+          <h2 className="intro-name">Thallia Salbego</h2>
           <h3
             className={[
               "intro-title animated-text",
